@@ -1,0 +1,18 @@
+{
+  "Name": "SeaBottomTriplePropeller",
+  "Author": "Super Hackio",
+  "Description": "The propeller from the bottom of Buoy Base ported to SMG2.",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "NameObjFactory": [
+        {
+          "Name": "SeaBottomTriplePropeller",
+          "Function": "createExtActor<SeaBottomTriplePropeller>",
+          "Include": "SeaBottomTriplePropeller.h"
+        }
+      ]
+    }
+  ]
+}
